@@ -1,0 +1,5 @@
+format:
+  html:
+    body-classes: notes-page
+
+toc: true

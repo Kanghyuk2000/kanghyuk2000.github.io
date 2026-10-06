@@ -1,0 +1,429 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kanghyuk Seo",
+    "section": "",
+    "text": "Researcher at Wave Shine Tech\nEmail: kanghyuk.2k@gmail.com\nLocation: Seoul, Republic of Korea\nGoogle Scholar   ·   LinkedIn   ·   ResearchGate"
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Notes"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Research"
+  },
+  {
+    "objectID": "publication.html",
+    "href": "publication.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Publications"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Publications"
+  },
+  {
+    "objectID": "index.html#wireless-systems-researcher",
+    "href": "index.html#wireless-systems-researcher",
+    "title": "Kanghyuk Seo",
+    "section": "",
+    "text": "Research interests in wireless sensing and communications, with a particular focus on reconfigurable intelligent surface (RIS)-aided wireless systems and integrated sensing and communication (ISAC)."
+  },
+  {
+    "objectID": "index.html#short-bio",
+    "href": "index.html#short-bio",
+    "title": "Kanghyuk Seo",
+    "section": "Short Bio",
+    "text": "Short Bio\nI was born in Seoul, South Korea, in December 2000.\nI received the B.S. degree in Electronic Engineering from Soongsil University in 2026.\nI worked as an undergraduate researcher in the Microwave & Radar Institute of Technology (MERIT) Laboratory at Soongsil University. I am currently working as a researcher at Wave Shine Tech.\nMy research interests include wireless sensing, wireless communications, reconfigurable intelligent surface (RIS)-aided wireless systems, and integrated sensing and communication (ISAC)."
+  },
+  {
+    "objectID": "index.html#selected-publications",
+    "href": "index.html#selected-publications",
+    "title": "Kanghyuk Seo",
+    "section": "Selected Publications",
+    "text": "Selected Publications\n\nK. Seo and C. K. Kim, “Doppler Bandwidth Estimation for Short-Range SAR Considering Signal Attenuation,”\nIEEE Access, 2025.\nK. Seo, Y. Kwon, and C. K. Kim, “An Enhanced Phase Gradient Autofocus Algorithm for SAR: A Fractional Fourier Transform Approach,”\nRemote Sensing, 2025.\nY. Kwon, K. Seo, and C. K. Kim, “Enhancing Calibration Precision in MIMO Radar with Initial Parameter Optimization,”\nRemote Sensing, 2025."
+  },
+  {
+    "objectID": "index.html#honors-awards",
+    "href": "index.html#honors-awards",
+    "title": "Kanghyuk Seo",
+    "section": "Honors & Awards",
+    "text": "Honors & Awards\n\nNational Science & Technology Scholarship (full-tuition for all four years of the B.S. program)\nThe Government of the Republic of Korea, 2019.\nDepartmental Honors Award (School of Electronic Engieering)\nSoongsil University, 2026.\nLUMIR Best Paper Award\nKIEES Summer Conference, 2024\nBest Undergraduate Paper Award\nKIEES Fall Conference, 2023"
+  },
+  {
+    "objectID": "index.html#conference-presentations",
+    "href": "index.html#conference-presentations",
+    "title": "Kanghyuk Seo",
+    "section": "Conference Presentations",
+    "text": "Conference Presentations\n\nISAP 2024 — Oral Presentation\nKIEES 2024 Summer Conference — Oral Presentation\nKIEES 2023 Fall Conference — Poster Presentation"
+  },
+  {
+    "objectID": "index.html#academic-community-service",
+    "href": "index.html#academic-community-service",
+    "title": "Kanghyuk Seo",
+    "section": "Academic & Community Service",
+    "text": "Academic & Community Service\n\nJournal Reviewer\nPeer reviewer for international peer-reviewed journals, including:\n\nIEEE Transactions on Aerospace and Electronic Systems\nIEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing\nScientific Reports\nSignal, Image and Video Processing"
+  },
+  {
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
+    "title": "Kanghyuk Seo",
+    "section": "Publications",
+    "text": "Publications\n\nK. Seo and C. K. Kim, “Doppler Bandwidth Estimation for Short-Range SAR Considering Signal Attenuation,”\nIEEE Access, 2025.\nK. Seo, Y. Kwon, and C. K. Kim, “An Enhanced Phase Gradient Autofocus Algorithm for SAR: A Fractional Fourier Transform Approach,”\nRemote Sensing, 2025.\nY. Kwon, K. Seo, and C. K. Kim, “Enhancing Calibration Precision in MIMO Radar with Initial Parameter Optimization,”\nRemote Sensing, 2025.\n(Under Review), K. Seo, S. Kyeong, and C. K. Kim, “WD-guided Effective Doppler Chirp-Rate Redesign for Parabolic RDA in Short-Range Wide-Beam SAR,”\nIEEE geoscience and remote sensing letters, 2026."
+  },
+  {
+    "objectID": "index.html#affiliations",
+    "href": "index.html#affiliations",
+    "title": "Kanghyuk Seo",
+    "section": "Affiliations",
+    "text": "Affiliations\n\nWave Shine Tech\nResearcher · Software Development Team (2026.10 ~ )\nWave Shine Tech is a South Korean wireless communications startup developing RIS-based infrastructure to improve wireless coverage in challenging propagation environments.\nMy work focuses on radio propagation modeling for RIS-aided wireless systems.\n\n\nMicrowave & Radar Institute of Technology (MERIT) Laboratory\nUndergraduate Researcher (2023.09 ~ )\nMERIT-Lab, based at Soongsil University in Seoul, South Korea, conducts research on advanced and next-generation radar systems.\nMy research focuses on radar systems and signal processing."
+  },
+  {
+    "objectID": "notes/index.html",
+    "href": "notes/index.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Technical notes on wireless systems, including wireless sensing, wireless communications, reconfigurable intelligent surfaces (RIS), and integrated sensing and communication."
+  },
+  {
+    "objectID": "notes/index.html#radar-sensing",
+    "href": "notes/index.html#radar-sensing",
+    "title": "Notes",
+    "section": "Radar & Sensing",
+    "text": "Radar & Sensing\nNotes on radar systems, signal processing, array processing, and wireless sensing."
+  },
+  {
+    "objectID": "notes/index.html#wireless-communications",
+    "href": "notes/index.html#wireless-communications",
+    "title": "Notes",
+    "section": "Wireless Communications",
+    "text": "Wireless Communications\nNotes on communication theory, wireless channels, OFDM, MIMO, and related signal processing."
+  },
+  {
+    "objectID": "notes/index.html#reconfigurable-intelligent-surfaces",
+    "href": "notes/index.html#reconfigurable-intelligent-surfaces",
+    "title": "Notes",
+    "section": "Reconfigurable Intelligent Surfaces",
+    "text": "Reconfigurable Intelligent Surfaces\nNotes on RIS fundamentals, electromagnetic propagation, channel modeling, and RIS-aided wireless systems."
+  },
+  {
+    "objectID": "notes/index.html#integrated-sensing-and-communication",
+    "href": "notes/index.html#integrated-sensing-and-communication",
+    "title": "Notes",
+    "section": "Integrated Sensing and Communication",
+    "text": "Integrated Sensing and Communication\nNotes on the integration of wireless communication and sensing systems."
+  },
+  {
+    "objectID": "notes/index.html#wireless-sensing",
+    "href": "notes/index.html#wireless-sensing",
+    "title": "Notes",
+    "section": "Wireless Sensing",
+    "text": "Wireless Sensing\nNotes on radar systems, signal processing, array processing, and wireless sensing.\n\nEvolution of Radar"
+  },
+  {
+    "objectID": "notes/index.html#reconfigurable-intelligent-surfaces-ris",
+    "href": "notes/index.html#reconfigurable-intelligent-surfaces-ris",
+    "title": "Notes",
+    "section": "Reconfigurable Intelligent Surfaces (RIS)",
+    "text": "Reconfigurable Intelligent Surfaces (RIS)\nNotes on RIS fundamentals, electromagnetic propagation, channel modeling, and RIS-aided wireless systems."
+  },
+  {
+    "objectID": "notes/index.html#integrated-sensing-and-communication-isac",
+    "href": "notes/index.html#integrated-sensing-and-communication-isac",
+    "title": "Notes",
+    "section": "Integrated Sensing and Communication (ISAC)",
+    "text": "Integrated Sensing and Communication (ISAC)\nNotes on the integration of wireless communication and sensing systems."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html",
+    "href": "notes/radar/evolution-of-radar.html",
+    "title": "Evolution of Radar",
+    "section": "",
+    "text": "Radar signal processing is often introduced as a collection of individual techniques, including pulse compression, Doppler processing, FMCW dechirping, beamforming, phased arrays, MIMO radar, and SAR. Although each techque has its own physical motivation and mathematical formulation, studying them independently can make it difficult to recognize the common signal-processing principles that connect them. This note is an attempt to organize these techniques according to my own understanding of radar signal processing, developed through my studies and research experience. Rather than presenting a comprehensive text treatment or a strict historical account of radar development, I aim to build a continuous interpretation of how radar systems encode physical information into signal structures and how those structures are subsequently transformed, separated, concentrated, or synthesized across time, frequency, and space.\nThe central question throughout this note is:\nHow is the energy of a radar signal formed in a particular domain, and how does signal processing reshape or interpret that energy to extract physical information?\nFor example, an LFM signal forms a chirped trajectory in the time-frequency plane. In pulse compression, matched filtering compensates the corresponding phase structure so that the distributed signal energy becomes concentrated at a specific time or spatial position. In FMCW radar, by contrast, dechirping converts propagation delay into a beat frequency, producing a constant-frequency structure whose location can be identified through Fourier analysis. Doppler processing similarly interprets a slow-time sinusoid in terms of radial velocity. The same perspective can be extended from temporal processing to spatial processing. A plane wave arriving at an antenna array produces a spatial phase progression across the aperture. This progression can be interpreted as a spatial frequency, allowing Fourier-domain intuition developed for temporal signals to be extended naturally to array processing, beamforming, phased arrays, and eventually MIMO radar.\nAccordingly, the discussion will repeatedly follow the conceptual sequence\nPhysical parameter → signal structure → energy geometry → processing operation → energy concentration or separation → physical interpretation\nThe goal is to understand why each operation is appropriate for the signal structure produced by a particular radar configuration, and how the resulting representation reveals the desired physical quantity. From this viewpoint, the evolution or radar can be interpreted not only as a progression of hardware architectures or individual algorithms, but also an expansion of the domains in which radar can encode and manipulate information:\ntime → time and frequency → slow time → space → synthetic and virtual spatial dimensions.\nThis note therefore develops a personal, signal-centric view of the evoltion of radar techniques, with particualr emphasis on the geometry of signal energy and the relationship between temporal, spectral, and spatial processing."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#introduction",
+    "href": "notes/radar/evolution-of-radar.html#introduction",
+    "title": "Evolution of Radar",
+    "section": "",
+    "text": "Radar signal processing is often introduced as a collection of individual techniques, including pulse compression, Doppler processing, FMCW dechirping, beamforming, phased arrays, MIMO radar, and SAR. Although each techque has its own physical motivation and mathematical formulation, studying them independently can make it difficult to recognize the common signal-processing principles that connect them. This note is an attempt to organize these techniques according to my own understanding of radar signal processing, developed through my studies and research experience. Rather than presenting a comprehensive text treatment or a strict historical account of radar development, I aim to build a continuous interpretation of how radar systems encode physical information into signal structures and how those structures are subsequently transformed, separated, concentrated, or synthesized across time, frequency, and space.\nThe central question throughout this note is:\nHow is the energy of a radar signal formed in a particular domain, and how does signal processing reshape or interpret that energy to extract physical information?\nFor example, an LFM signal forms a chirped trajectory in the time-frequency plane. In pulse compression, matched filtering compensates the corresponding phase structure so that the distributed signal energy becomes concentrated at a specific time or spatial position. In FMCW radar, by contrast, dechirping converts propagation delay into a beat frequency, producing a constant-frequency structure whose location can be identified through Fourier analysis. Doppler processing similarly interprets a slow-time sinusoid in terms of radial velocity. The same perspective can be extended from temporal processing to spatial processing. A plane wave arriving at an antenna array produces a spatial phase progression across the aperture. This progression can be interpreted as a spatial frequency, allowing Fourier-domain intuition developed for temporal signals to be extended naturally to array processing, beamforming, phased arrays, and eventually MIMO radar.\nAccordingly, the discussion will repeatedly follow the conceptual sequence\nPhysical parameter → signal structure → energy geometry → processing operation → energy concentration or separation → physical interpretation\nThe goal is to understand why each operation is appropriate for the signal structure produced by a particular radar configuration, and how the resulting representation reveals the desired physical quantity. From this viewpoint, the evolution or radar can be interpreted not only as a progression of hardware architectures or individual algorithms, but also an expansion of the domains in which radar can encode and manipulate information:\ntime → time and frequency → slow time → space → synthetic and virtual spatial dimensions.\nThis note therefore develops a personal, signal-centric view of the evoltion of radar techniques, with particualr emphasis on the geometry of signal energy and the relationship between temporal, spectral, and spatial processing."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#pulsed-radar",
+    "href": "notes/radar/evolution-of-radar.html#pulsed-radar",
+    "title": "Evolution of Radar",
+    "section": "Pulsed Radar",
+    "text": "Pulsed Radar"
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#pulse-compression",
+    "href": "notes/radar/evolution-of-radar.html#pulse-compression",
+    "title": "Evolution of Radar",
+    "section": "Pulse Compression",
+    "text": "Pulse Compression"
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#fmcw-radar",
+    "href": "notes/radar/evolution-of-radar.html#fmcw-radar",
+    "title": "Evolution of Radar",
+    "section": "FMCW Radar",
+    "text": "FMCW Radar"
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#antenna-arrays",
+    "href": "notes/radar/evolution-of-radar.html#antenna-arrays",
+    "title": "Evolution of Radar",
+    "section": "Antenna Arrays",
+    "text": "Antenna Arrays"
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#spatial-fourier-transform",
+    "href": "notes/radar/evolution-of-radar.html#spatial-fourier-transform",
+    "title": "Evolution of Radar",
+    "section": "Spatial Fourier Transform",
+    "text": "Spatial Fourier Transform\nIf \\[\nx(x) = Ae^{j\\kappa_0 x},\n\\] the spatial Fourier transform is \\[\nX(\\kappa) = \\int{x(x)e^{-j\\kappa x}dx}.\n\\] For an ideal infinite aperture, \\[\nX(\\kappa)\\propto \\delta(\\kappa - \\kappa_0).\n\\] Thus, the spatial Fourier transform produces a peak at \\[\n\\kappa = \\kappa_0\n\\] Since \\[ \\kappa_0 = k sin\\theta, \\] the arrivial angle is obtained from \\[ \\theta = sin^{-1}(\\frac{\\kappa_0}{k}).\\] The signal-processing chain is therefore\n\\(\\theta\\) → \\(\\kappa_x\\) → spatial Fourier transform → spatial-frequency peak → \\(\\theta\\).\nThis is conceptually much close to Doppler processing than to matched filtering. No additional operation analogous to FMCW dechirping is necessary. Propagation geometry itself has already encoded angle into a spatial tone. The spatial Fourier transform reads that tone."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#beamforming",
+    "href": "notes/radar/evolution-of-radar.html#beamforming",
+    "title": "Evolution of Radar",
+    "section": "Beamforming",
+    "text": "Beamforming"
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#mimo-radar",
+    "href": "notes/radar/evolution-of-radar.html#mimo-radar",
+    "title": "Evolution of Radar",
+    "section": "MIMO Radar",
+    "text": "MIMO Radar"
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#synthetic-aperture-radar",
+    "href": "notes/radar/evolution-of-radar.html#synthetic-aperture-radar",
+    "title": "Evolution of Radar",
+    "section": "Synthetic Aperture Radar",
+    "text": "Synthetic Aperture Radar"
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#a-unified-view-of-radar",
+    "href": "notes/radar/evolution-of-radar.html#a-unified-view-of-radar",
+    "title": "Evolution of Radar",
+    "section": "A Unified View of Radar",
+    "text": "A Unified View of Radar\nRadar can be understood as a system that converts physical properties of a scene into structured distributions of signal energy, processes those structures in an appropriate domain, and finally interprets the resulting energy concentration in terms of physical parameters such as range, velocity, and direction.\nEach technique is interpreted through the following sequence:\nPhysical parameter → signal structure → energy geometry → processing operation → energy concentration or separation → physical interpretation"
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#the-fundamental-radar-measurement",
+    "href": "notes/radar/evolution-of-radar.html#the-fundamental-radar-measurement",
+    "title": "Evolution of Radar",
+    "section": "The Fundamental Radar Measurement",
+    "text": "The Fundamental Radar Measurement\n\n\n\n\n\n\nFigure 1: Receiver structure.\n\n\n\n\n\n\n\n\n\nFigure 2: Receiver structure.\n\n\n\nConsider first a monostatic radar transmitting a complex-basedband waveform \\(s(t)\\) at carrier frequency \\(f_c\\). The transmitted RF waveform can be written as \\[\nx_{\\mathrm{RF}}(t)\n=\n\\Re\n\\left\\{\ns(t)e^{j2\\pi f_c t}\n\\right\\}.\n\\] For a stationary point target at range \\(R\\), the round-trip propagation delay is \\[\n\\tau=\\frac{2R}{c}.\n\\] Ignoring secondary effects, the received basedband signal can be represented as \\[\nr(t)=\\alpha s(t-\\tau) e^{-j2\\pi f_c\\tau},\n\\] where \\(\\alpha\\) contains propagation loss, target scattering, and constant phase terms. The first important interpretation is that range appears in two related ways: R → \\(\\tau\\) → envelope displacement and R →\\(e^{-j4\\pi R / \\lambda}\\) → carrier phase with \\(\\lambda=c/f_c\\). Thus, even the simplest radar measurement already contains both temporal and phase information.\nFor a moving target, \\(R=R(t)\\), and therefore \\(\\tau(t)=\\frac{2R(t)}{c}\\). The more fundamental received-signal model is consequently\n\\[\nr(t)=\\alpha s(t-\\tau(t))e^{j2\\pi f_c \\tau(t)}\n\\] Both the envelope delay and the carrier phase are affected by target motion. The familiar Doppler-only representation arises only after appropriate approximatinos. This starting point is important because every later radar technique can be viewed as exploiting a particular structure generated by \\(R(t)\\), the waveform, the observation coordinate, or the antenna geometry."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#basic-pulse-radar-range-appears-directly-on-the-time-axis",
+    "href": "notes/radar/evolution-of-radar.html#basic-pulse-radar-range-appears-directly-on-the-time-axis",
+    "title": "Evolution of Radar",
+    "section": "Basic Pulse Radar: Range Appears Directly on the Time Axis",
+    "text": "Basic Pulse Radar: Range Appears Directly on the Time Axis\nThe earliest and conceptually simplest range measurement uses a short pulse. If \\(s(t)=p(t)\\), then a stationary target produces \\(r(t)=\\alpha p(t-\\tau)\\). Conceptually,\nR → \\(\\tau\\) → time-axis position\nand therefore \\(R=c\\tau/2\\). No additional parameter conversion is required. The physical propagation delay itself becomes the observable coordinate. The difficulty is that high range resolution requires a short pulse, which in turn requires potentially high peak power for a fixed transmitted energy. This limitation motivates pulse compression."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#pulse-compression-spreading-energy-in-time-and-recompressing-it",
+    "href": "notes/radar/evolution-of-radar.html#pulse-compression-spreading-energy-in-time-and-recompressing-it",
+    "title": "Evolution of Radar",
+    "section": "Pulse Compression: Spreading Energy in Time and Recompressing It",
+    "text": "Pulse Compression: Spreading Energy in Time and Recompressing It\n\n\n\n\n\n\nFigure 3: Matched Filtering.\n\n\n\nInstead of transmitting a very short pulse, radar can transmit a longer waveform with large bandwidth. For an LFM waveform, \\[s(t)=A(t)e^{j\\pi Kt^2},\\] the instantaneous frequency is \\[f_i(t) = Kt.\\] In the time-frequency plane, the signal energy is therefore distributed approximately along a slanted trajectory.\nConceptually, time-frequency energy ~ slanted line. The important fact is that the transmitted energy is extended over time, but it is not arbitrary. It follows a deterministic phase law. The matched-filter operation exploits this known phase structure. In a frequency-domain implementation, \\[ S_{out}(f) = S_r(f) H_{MF}(f),\\] where \\(H_{MF}(f)\\) contains the conjugate phase of the reference waveform. When the received waveform and reference model are properly matched, the phase is compensated. In the present viewpoint,\ndistributed chirped energy → frequency-domain phase compensation → inverse Fourier transform → time localization\nis the essence of pulse compression.\nIn a time-frequency interpretation, the original LFM trajectory is transformed so that, after compression, the residual energy is associated with a single delay location. Conceptually, the energy becomes aligned with a fixed time coordinate, and its projection onto the time axis becomes sharply concentrated. This is the sense in which matched filtering will be used throughout this discussion."
+  },
+  {
+    "objectID": "index.html#patents",
+    "href": "index.html#patents",
+    "title": "Kanghyuk Seo",
+    "section": "Patents",
+    "text": "Patents\n\nY. H. Kwon, K. Seo and C. K. Kim, “Electronic Device for Performing Beamforming based on Fractional Fourier Transform Applicable to a Single Snapshot Structure, and Method of Operation Thereof,”\n(KR Patent Application)"
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#moving-targets-and-the-emergence-of-slow-time",
+    "href": "notes/radar/evolution-of-radar.html#moving-targets-and-the-emergence-of-slow-time",
+    "title": "Evolution of Radar",
+    "section": "Moving Targets and the Emergence of Slow Time",
+    "text": "Moving Targets and the Emergence of Slow Time\n\n\n\n\n\n\n\n\n\n\nA single pulse provides primarily range information. To obtain motion information, radar transmits repeated pulses. This introduces a second observation coordinate: fast time for range, and slow time for pulse-to-pulse evolutinon. The cruitial distinction from pulse compression is that, under the constant-Doppler approximation, the slow-time signal is already a sinusoid. Its energy is already associated with a single Doppler frequency. In a slow-time/frequency representation, the signal is therefore conceptually horizontal: \\(f_{t_{slow}}=f_D.\\) Nothing is required. The Fourier transform simply reveals the frequency at which the energy already exists. Thus,\nradial motion → slow-time phase progression → slow-time sinusoid → Fourier transform → Doppler peak\nand \\(f_D → v_r\\). This distinction will be maintained: Doppler FFT processing is not referred to here as matched filtering."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#range-doppler-radar-as-a-two-dimensional-energy-representation",
+    "href": "notes/radar/evolution-of-radar.html#range-doppler-radar-as-a-two-dimensional-energy-representation",
+    "title": "Evolution of Radar",
+    "section": "Range-Doppler Radar as a Two-Dimensional Energy Representation",
+    "text": "Range-Doppler Radar as a Two-Dimensional Energy Representation\nRepeated-pulse radar therefore generates a two-dimensional dataset, \\[ x(t,m), \\] where \\(t\\) is fast time and \\(m\\) is slow time.\nThe two dimensinos encode different physical phenomena. Fast time contains propagation delay and therefore range information. Slow time contains pulse-to-pulse phase progression and therefore Doppler information. If an LFM pulse is transmitted, fast-time processing first performs pulse compression. Doppler processing then performs Fourier analysis along slow time. The result is a range-Doppler representation, \\[X(R,f_D).\\] Range axis and Doppler axis are produced from two different signal geometries. For range, the distributed waveform energy is compressed into delay. For Doppler, an already existing slow-time tone is spectrally resolved. The resulting range-Doppler map is therefore a physical reorganization of the received signal energy into coordinates directly related to target range and radial velocity."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#fmcw-radar-converting-delay-into-frequency",
+    "href": "notes/radar/evolution-of-radar.html#fmcw-radar-converting-delay-into-frequency",
+    "title": "Evolution of Radar",
+    "section": "FMCW Radar: Converting Delay into Frequency",
+    "text": "FMCW Radar: Converting Delay into Frequency\n\n\n\n\n\nFMCW radar introduces a different philosophy for measuring range. Considering a transmitted chirp \\[\ns_T(t) = e^{j2\\pi (f_ct+\\frac{K}{2}t^2)}\n\\] For a stationary target with delay \\(\\tau\\), \\[\ns_R(t) = \\alpha e^{j2\\pi [f_c(t-\\tau)+\\frac{K}{2}(t-\\tau)^2]}\n\\] In the time-frequency plane, the transmitted and received signals from approximately parallel chirp trajectories. Their displacement is caused by the propagation delay. The key processing step in FMCW radar is not matched filtering in the sense defined above. Instead, the transmitted and received chirps are mixed: \\[\ns_b(t) = s_T(t)s^{*}_R(t),\n\\] up to the chosen mixing convention. Expanding the phase causes the common quadratic chirp term to cancel. The remaining time-dependent phase is linear: \\[\ns_b(t) = Ce^{j2\\pi f_b t},\n\\] where approximately \\[\nf_b = K\\tau\n\\] for a stationary target.\nThus, dechirping performs a fundamental parameter conversion: \\[\n\\tau → f_b.\n\\] The range delay is no longer read directly a time displacement. It has been encoded into the frequency of a beat tone."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#the-time-frequency-meaning-of-fmcw-dechirping",
+    "href": "notes/radar/evolution-of-radar.html#the-time-frequency-meaning-of-fmcw-dechirping",
+    "title": "Evolution of Radar",
+    "section": "The Time-Frequency Meaning of FMCW Dechirping",
+    "text": "The Time-Frequency Meaning of FMCW Dechirping\nThe time-frequency interpretation makes the difference from matched filtering especially clear. Before dechirping, the received signal has a slanted chirp trajectory. After dechirping, the quadratic phase has been removed, and the signal becomes a constant-frequency tone. Therefore,\nslanted chirp trajectory → dechirping → horizontal constant-frequency structure\nin the time-frequency plane. The signal energy is now concentrated at one beat frequency across the observation time. The subsequent Fourier transform does not perform the dechirping itself. It simply resolves the beat tone on the frequency axis: \\(S_b(f)\\) → peak at \\(f_b\\). The complete range-estimation chain is therefore\n\\(R\\) → \\(\\tau\\) → relative chirp displacement → dechirping → \\(f_b\\) → Fourier transform → range estimate.\nThis distinction is central. Pulse compression transforms a chirped waveform into a localized delay response through phase compensation and inverse tranformation. FMCW processing instead converts delay into frequency through mixing, after which the resulting frequency is measured. The two approaches ultimately estimate range, but their energy transformations are fundamentally different."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#from-time-frequency-processing-to-spatial-processing",
+    "href": "notes/radar/evolution-of-radar.html#from-time-frequency-processing-to-spatial-processing",
+    "title": "Evolution of Radar",
+    "section": "From Time-Frequency Processing to Spatial Processing",
+    "text": "From Time-Frequency Processing to Spatial Processing\nUp to this point, the main independent variables have been temporal. Fast time describes propagation delay. Slow time describes pulse-to-pulse evolution.\nThe next major step in radar evolution is to introduce space itself as an observation cooridnate. Suppose several receive antennas are positioned along a line: \\[\nx_n=nd,     n=0,...,N_R-1.\n\\] A far-field plane wave arriving from angle \\(\\theta\\) encounters slightly different propagation distances at different antenna locations. For a ULA, \\[\n\\Delta R = d sin\\theta\n\\] between adjacent elements, under the chosen angle convention. The correponding phase difference is \\[\n\\Delta \\phi = kd sin\\theta\n\\] where \\(k=\\frac{2\\pi}{\\lambda}\\). Therefore, the received signal across the array is \\[\nx[n] = Ae^{jnkdsin\\theta}.\n\\] This equation is the fundamental bridge between temporal and spatial signal processing."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#spatial-frequency",
+    "href": "notes/radar/evolution-of-radar.html#spatial-frequency",
+    "title": "Evolution of Radar",
+    "section": "Spatial Frequency",
+    "text": "Spatial Frequency\nCompare the array signal \\[\nx[n] = Ae^{jnkd sin\\theta}\n\\] with a discrete-time complex sinusoid, \\[\nx[m] = Ae^{jwm}.\n\\] They have exactly the same methematical structure. The difference is only the independent variable. In temporal processing, \\(m\\) indexes time samples. In array processing, \\(n\\) indexes spatial samples. Define \\[\n\\psi = kd sin\\theta.\n\\] Then \\[\nx[n] = Ae^{jn\\psi}.\n\\] The quantity \\(\\psi\\) is a normalized spatial frequency. In continuous space, \\[\nx(x) = Ae^{j\\kappa_xx},\n\\] where \\[\n\\kappa_x = k sin\\theta = \\frac{2\\pi}{\\lambda} sin\\theta\n\\] Thus, temporal frequency measures phase variation with respect to time, \\[\n\\frac{d\\phi}{dt},\n\\] whereas the spatial frequency measures phase variation with respect to position, \\[\n\\frac{d\\phi}{dx}.\n\\] This is the fundamental meaning of spatial frequency."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#direction-as-a-spatial-tone",
+    "href": "notes/radar/evolution-of-radar.html#direction-as-a-spatial-tone",
+    "title": "Evolution of Radar",
+    "section": "Direction as a Spatial Tone",
+    "text": "Direction as a Spatial Tone\nThe physical angle \\(\\theta\\) therefore does not appear at the receiver as an abstract angular label. It produces a measurable spatial phase slope. The complete relationship is\n\\(\\theta\\) → path difference → inter-element phase progression → spatial frequency.\nIn the spatial-position / spatial-frequency plane, a single far-field plane wave behaves analogously to a temporal pure tone. Its spatial frequency is constant: \\[\n\\kappa_x = k sin\\theta.\n\\] Conceptually, energy ~ horizontal line at \\(\\kappa_x\\). This is directly analogous to the FMCW beat signal after dechirping: \\(f=f_b\\). The correspondence is \\[\ne^{j2\\pi f_b t} ↔ e^{j\\kappa_x x}.\n\\] The formal is a temporal tone. The latter is a spatial tone."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#the-direct-analogy-with-fmcw-processing",
+    "href": "notes/radar/evolution-of-radar.html#the-direct-analogy-with-fmcw-processing",
+    "title": "Evolution of Radar",
+    "section": "The Direct Analogy with FMCW Processing",
+    "text": "The Direct Analogy with FMCW Processing\nThe analogy with FMCW becomes especially clear after dechirping. For FMCW, \\[\ns_b(t) = Ae^{j2\\pi f_b t}.\n\\] The Fourier transform over time produces \\(f_b\\). For the receive array, \\[\nx(x) = Ae^{j\\kappa_x x}.\n\\] The Fourier transform over position produces \\(\\kappa_x\\). Therefore,\n\n\n\n\n\nThe difference is that FMCW first requires a dechirping operation to convert delay into a tone, whereas the receive array naturally receives a spatial tone because of plane-wave propagation."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#spatial-sampling",
+    "href": "notes/radar/evolution-of-radar.html#spatial-sampling",
+    "title": "Evolution of Radar",
+    "section": "Spatial Sampling",
+    "text": "Spatial Sampling\nA practical array does not observe the continuous spatial field. It samples the field at discrete antenna positions, \\[\nx_n = nd.\n\\] Thus, \\[\nx[n] = Ae^{jnkdsin\\theta}.\n\\] This is mathematically identical to sampling a continuous temporal sinusoid. The antenna spacing \\(d\\) therefore plays a role analogous to the temporal sampling interval. The correspondence is \\[\nT_s ↔ d.\n\\]\nConsequently, familiar DSP concepts immediately acquire spatial counterparts.\nAgain, the role of the FFT is principally spectral readout. The angle has already been encoded into the spatial phase progression by propagation. The FFT determines which spatial frequency is present. This is the basis of the commonly used angle FFT."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#beamforming-as-spatial-phase-alignment",
+    "href": "notes/radar/evolution-of-radar.html#beamforming-as-spatial-phase-alignment",
+    "title": "Evolution of Radar",
+    "section": "Beamforming as Spatial Phase Alignment",
+    "text": "Beamforming as Spatial Phase Alignment\nBeamforming can now be under stood from the same spatial-frequency viewpoit. Suppose a target is located at \\(\\theta_s\\), producing\n\\[\n\\mathbf{x} = \\alpha \\mathbf{a}(\\theta_s),\n\\]\nwhere\n\\[\n\\mathbf{a}(\\theta)\n=\n\\begin{bmatrix}\n1 \\\\\ne^{jkd\\sin\\theta} \\\\\ne^{j2kd\\sin\\theta} \\\\\n\\vdots\n\\end{bmatrix}.\n\\]\nTo examine a candidate direction \\(\\theta_0\\), the receiver applies the conjugate phase progression corresponding to that angle:\n\\[\ny(\\theta_0)\n=\n\\mathbf{a}^{H}(\\theta_0)\\mathbf{x}.\n\\]\nIf\n\\[\n\\theta_0 = \\theta_s,\n\\]\nthe spatial phase progression is exactly removed:\n\\[\ne^{jnkd\\sin\\theta_s}\ne^{-jnkd\\sin\\theta_s}\n=\n1.\n\\] All antenna channels therefore add coherently. Hence,\nreceive beamforming = spatial phase alignment + coherent summation. It is useful to distinguish this physically from the matched-filter terminology adopted earlier. The signal is not first a chirped time-frequency trajectory that is transformed into a localized time response. Instead, the received wave already possesses a spatial sinusoidal structure, and beamforming compensates the spatial phase progression corresponding to a selected direction."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#beamforming-and-spatial-fourier-analysis",
+    "href": "notes/radar/evolution-of-radar.html#beamforming-and-spatial-fourier-analysis",
+    "title": "Evolution of Radar",
+    "section": "Beamforming and Spatial Fourier Analysis",
+    "text": "Beamforming and Spatial Fourier Analysis\nFor a ULA, \\[\ny(\\theta_0)=\n\\sum_{n=0}^{N-1}\nx[n]e^{-jnkd\\sin\\theta_0}.\n\\] Compare this with the spatial Fourier transform, \\[\nX(\\kappa)=\\sum_{n}x[n]e^{j\\kappa nd}.\n\\] They become identical when \\[\n\\kappa = k sin\\theta_0.\n\\] Therefore, conventional beamforming can be interpreted as evaluating the spatial Fourier spectrum at the spatial frequency corresponding to a selected angle. This leads to an important distinction: beamforming = evaluate one or selected spatial directions whereas angle FFT = evaluate many uniformly spaced spatial-frequency bins simultaneously. Their physical basis is the same spatial phase structure."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#aperture-length-and-angular-resolution",
+    "href": "notes/radar/evolution-of-radar.html#aperture-length-and-angular-resolution",
+    "title": "Evolution of Radar",
+    "section": "Aperture Length and Angular resolution",
+    "text": "Aperture Length and Angular resolution\nThe temporal-frequency analogy becomes especially useful for understanding resolution. A finite temporal observation interval limits frequency resolution. Likewise, a finite spatial aperture limits angular resolution. If the array aperture length is approximately \\[\nL\\approx Nd,\n\\] then the spatial-frequency resolution is roughly inversely related to \\(L\\): \\[\n\\Delta\\kappa \\sim \\frac{2\\pi}{L}.\n\\] Since \\[\n\\kappa = k sin\\theta,\n\\] a larger aperture allows closer spatial frequencies, and therefore close angles, to be distinguished. Thus, longer time observation → finer frequency resolution correponds directly to larger spatial aperture → finer angular resolution. This is one of the most useful correspondences between conventional signal processing and array processing."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#finite-aperture-mainlobes-and-sidelobes",
+    "href": "notes/radar/evolution-of-radar.html#finite-aperture-mainlobes-and-sidelobes",
+    "title": "Evolution of Radar",
+    "section": "Finite Aperture, Mainlobes, and Sidelobes",
+    "text": "Finite Aperture, Mainlobes, and Sidelobes\nAn infinite sinusoid would produce an ideal delta function in frequency. A finite-duration sinusoid produces a broadened spectral response with sidelobes. Exactly the same phenomenon occurs spatially. A finite array observes the spatial sinusoid only over a finite aperture. Thus, a point target at one angle does not produce an infinitely narrow angular delta. It produces a finite mainlobe and sidelobes. The correspondence is\nfinite temporal window ↔︎ finite spatial aperture\nand\nspectral mainlobe/sidelobes ↔︎ beam mainlobe/sidelobes.\nSpatial tapering is consequently analogous to temporal windowing. Applying antenna weights \\(w[n]\\) can reduce sidelobes at the cost of increased beamwidth, just as a temporal window trades spectral sidelobe level against frequency resolution."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#phased-array-transmission-from-reading-spatial-energy-to-designing-it",
+    "href": "notes/radar/evolution-of-radar.html#phased-array-transmission-from-reading-spatial-energy-to-designing-it",
+    "title": "Evolution of Radar",
+    "section": "Phased-Array Transmission: From Reading Spatial Energy to Designing It",
+    "text": "Phased-Array Transmission: From Reading Spatial Energy to Designing It\nRecieve-array processing analyzes a spatial phase structure by the incoming wave. Phased-array transmission reverses the logic. Rather than simply observing a spatial phase progression, the radar deliberately imposes one across the transmit aperture. Suppose the \\(n\\)-th transmit element radiates \\[\nx_n(t) = w_n s(t).\n\\] The weights \\(w_n\\) can be chosen so that the fields radiated by all elements arrive with equal phase in a desired direction \\(\\theta_0\\)."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#phased-array-transmission-from-reading-spatial-frequency-to-creating-it",
+    "href": "notes/radar/evolution-of-radar.html#phased-array-transmission-from-reading-spatial-frequency-to-creating-it",
+    "title": "Evolution of Radar",
+    "section": "Phased-Array Transmission: From Reading Spatial Frequency to Creating It",
+    "text": "Phased-Array Transmission: From Reading Spatial Frequency to Creating It\nUp to this point, the array has been considered primarily from the receive side. When a plane wave arrives from direction \\(\\theta\\), propagation itself generates a spatial phase progression across the receiving aperture. For a uniform linear array (ULA), \\[\nx[n] = Ae^{jnkdsin\\theta},\n\\] where \\[\nk=2\\pi/\\lambda\n\\] The arrival angle is therefore encoded as a spatial frequency \\(\\kappa_x=ksin\\theta.\\) The receiver does not need to create this spatial structure. It is naturally produced by propagation. The role of receive-array processing is then to interprete this structure through spatial Fourier analysis or beamforming. Phased-array transmission reverses this perspective. Instead of asking\nWhat spatial phase pattern does a wave arriving from a given direction produce across the array?\nwe now ask\nWhat spatial phase pattern should be created across the transmitting array so that the radiated waves combine coherently in a desired direction?\nThis reversal,\nReceive:direction → spatial phase\nversus\nTransmit: designed spatial phase → directional radiation\nis the fundamental idea of phased-array transmission."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#starting-with-a-single-antenna",
+    "href": "notes/radar/evolution-of-radar.html#starting-with-a-single-antenna",
+    "title": "Evolution of Radar",
+    "section": "Starting with a Single Antenna",
+    "text": "Starting with a Single Antenna\nConsider first a single antenna. Its radiated field is determined by its element radiation pattern, \\[\nE_{elem}(\\theta).\n\\] With only one antenna, the radar has limited ability to reshape the angular distribution of the transmitted energy electronically. The directionality is most determined by the physical radiation pattern of the antenna itself."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#from-a-transmitted-signal-to-a-radiated-electronic-field",
+    "href": "notes/radar/evolution-of-radar.html#from-a-transmitted-signal-to-a-radiated-electronic-field",
+    "title": "Evolution of Radar",
+    "section": "From a Transmitted Signal to a Radiated Electronic field",
+    "text": "From a Transmitted Signal to a Radiated Electronic field\nBefore considering multiple transmit antennas, it is useful to clarify what is physically being transmitted. Throughout the previous signal-processing discussion, a radar waveform has often been represented by a complex baseband signal \\[\ns(t) = A(t)e^{j\\phi(t)}\n\\] The quantity \\(s(t)\\) is a signal-processing representation. It is not ifself the electric field propagating through space. The corresponding physical RF excitation at an antenna port may be represented, for example, by the voltage \\[\nv_{\\mathrm{RF}}(t)\n=\n\\Re\\left\\{\ns(t)e^{j2\\pi f_c t}\n\\right\\}.\n\\] If \\[\ns(t) = A(t)e^{j\\phi(t)},\n\\] then \\[\nv_{RF}(t)=A(t)cos(2\\pi f_ct+\\phi(t)).\n\\] This RF voltage and the corresponding RF current excite a time-varying current distribution on the antenna. That current distribution radiates an electromagnetic field into space. The physical field is described by\n\\[\n\\mathbf{E}(\\mathbf{r}, t)\n\\]\nand\n\\[\n\\mathbf{H}(\\mathbf{r}, t),\n\\] where \\(\\mathbf{r}\\) denotes specifies the observation position. For signal-processing anaylsis, it is convenient to express the radiated electric field using a complex representation. At a distant observation point, its structure can be written schematically as \\[\n\\mathbf{E}_{\\mathrm{phys}}(\\mathbf{r},t)\n=\n\\Re\\left\\{\n\\widetilde{\\mathbf{E}}(\\mathbf{r},t)\ne^{j2\\pi f_c t}\n\\right\\},\n\\] where \\(\\widetilde{\\mathbf{E}}(\\mathbf{r},t)\\) is the complex envelope of the radiated electric field. The radiated field carries the temporal waveform described by \\(s(t)\\)."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#a-single-transmit-antenna",
+    "href": "notes/radar/evolution-of-radar.html#a-single-transmit-antenna",
+    "title": "Evolution of Radar",
+    "section": "A Single Transmit Antenna",
+    "text": "A Single Transmit Antenna"
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#propagation-of-the-radiated-waveform",
+    "href": "notes/radar/evolution-of-radar.html#propagation-of-the-radiated-waveform",
+    "title": "Evolution of Radar",
+    "section": "Propagation of the Radiated Waveform",
+    "text": "Propagation of the Radiated Waveform\nSuppose the observation point is a distance \\(r\\) from the antenna. Because electromagnetic waves propagate at approximately the speed of light \\(c\\), the waveform observed at this point is delayed by \\[\n\\tau_r = \\frac{r}{c}.\n\\] Therefore, the baseband waveform becomes \\[\ns(t-\\frac{r}{c}).\n\\] At the same time, the RF carrier also experiences this propagation delay. Starting from \\[\ne^{j2\\pi f_c t},\n\\] a delay \\(r/c\\) gives \\[\ne^{j2\\pi f_c (t-\\frac{r}{c})}\n\\] This can be separated as \\[\ne^{j2\\pi f_c t} e^{-j2\\pi f_c \\frac{r}{c}}.\n\\] Since \\[\n\\lambda = \\frac{c}{f_c},\n\\] and \\[\nk=\\frac{2\\pi}{\\lambda},\n\\] we obtain \\[\n\\frac{2\\pi f_c r}{c} = kr\n\\] Hence, \\[\ne^{j2\\pi f_c (t-\\frac{r}{c})} = e^{2\\pi f_c t} e^{-jkr}.\n\\] This explains the propagation-phase term \\[\ne^{-jkr}.\n\\] Therefore, the same physical propagation delay \\(r/c\\) appears in two different parts of the complex-envelope representation:\nWaveform Delay \\(s(t-\\frac{r}{c})\\) and Carrier Phase Delay \\(e^{-jkr}\\)."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#including-propagation-loss-and-the-antenna-response",
+    "href": "notes/radar/evolution-of-radar.html#including-propagation-loss-and-the-antenna-response",
+    "title": "Evolution of Radar",
+    "section": "Including Propagation Loss and the Antenna Response",
+    "text": "Including Propagation Loss and the Antenna Response\nThe electric-field amplitude also decreases with propagation distance. In the far field, \\[\n|\\mathbf{E}| \\propto \\frac{1}{r}.\n\\] In addition, a real antenna does not radiate equally in every direction. Its directional field response can be represented by \\[\n\\mathbf{F}(\\theta, \\phi).\n\\] Combining these effects, the complex envelope of the radiated electric field can be represented as \\[\n\\widetilde{\\mathbf{E}}(\\mathbf{r},t)\n\\propto\n\\frac{\\mathbf{F}(\\theta,\\phi)}{r}\ns\\left(t-\\frac{r}{c}\\right)\ne^{-jkr}.\n\\]\nNow every term has a clear meaning:\n\\[\n\\underbrace{\ns\\left(t-\\frac{r}{c}\\right)\n}_{\\text{delayed radar waveform}}\n\\]\n\\[\n\\underbrace{\ne^{-jkr}\n}_{\\text{carrier propagation phase}}\n\\]\n\\[\n\\underbrace{\n\\frac{1}{r}\n}_{\\text{field-amplitude decay}}\n\\]\n\\[\n\\underbrace{\n\\mathbf{F}(\\theta,\\phi)\n}_{\\text{single-antenna directional response}}\n\\]\nThis equation provides the bridge between the waveform notation used in radar signal processing and the actual electric field propagation through space."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#why-the-propagation-phase-is-the-key-quantity-for-an-array",
+    "href": "notes/radar/evolution-of-radar.html#why-the-propagation-phase-is-the-key-quantity-for-an-array",
+    "title": "Evolution of Radar",
+    "section": "Why the Propagation Phase Is the Key Quantity for an Array",
+    "text": "Why the Propagation Phase Is the Key Quantity for an Array\nFor a single antenna, the absolute propagation phase \\[\ne^{-jkr}\n\\] is usually not very interesting by itself. For multiple antennas, however, the antennas occupy different spatial positions, Therefore, the propagation distance from each antenna to the same observation point is slightly different. If two antenna elements have propagation distances \\[\nr_0, r_1,\n\\] their fields contain \\[\ne^{-jkr_0}, e^{-jkr_1}.\n\\] Their relative phase is therefore determined by \\[\ne^{-jk(r_1 - r_0)}.\n\\] Defining the path difference as \\[\n\\Delta r = r_1 - r_0,\n\\] we obtain \\[\n\\Delta \\phi = -k \\Delta r.\n\\] Thus,\ndifferent antenna positions → different path lengths → different field phases.\nThis is exactly the point at which the single-antenna field description becomes array theory."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#two-transmit-antennas-relative-field-phase",
+    "href": "notes/radar/evolution-of-radar.html#two-transmit-antennas-relative-field-phase",
+    "title": "Evolution of Radar",
+    "section": "Two Transmit Antennas: Relative Field Phase",
+    "text": "Two Transmit Antennas: Relative Field Phase\nConsider two identical transmit antennas located at \\[\nx_0 = 0, x_1 = d.\n\\] Both antennas transmit the same radar waveform \\(s(t)\\). The electric field radiated by each antenna propagates toward an obsrvation point in direction \\(\\theta\\). Let the corresponding propagation distances be \\(r_0\\) and \\(r_1\\). From the previous section, the complex electric-field envelopes contain the propagation-phase terms \\[\ne^{-jkr_0}, e^{-jkr_1}\n\\] Therefore, after removing factors common to both fields, their relative phase is determined by \\[\ne^{-jk(r_1 - r_0)}.\n\\] For a far-field observation point, the path difference produced by the spatial separation \\(d\\) is approximately \\[\nr_1 - r_0 \\approx -d sin\\theta\n\\] under the adopted coordinate convention. Therefore, \\[\ne^{-jk(r_1 - r_0)} \\approx e^{jkdsin\\theta}.\n\\] The second antenna thus contributes a relative spatial phase \\[\ne^{jkdsin\\theta}.\n\\] The total electric field becomes\n\\[\nE(\\theta) \\propto 1 + e^{jkdsin\\theta}.\n\\] This equation is the simplest form of a transmit-array response. The important point is that the direction \\(\\theta\\) changes the relative propagation phase between the radiated fields."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#constructive-and-destructive-interference",
+    "href": "notes/radar/evolution-of-radar.html#constructive-and-destructive-interference",
+    "title": "Evolution of Radar",
+    "section": "Constructive and Destructive Interference",
+    "text": "Constructive and Destructive Interference\nConsider first the broadside direction, \\(\\theta=0\\). Then \\[\nkdsin\\theta = 0,\n\\] and therefore \\[\nE(0) \\propto 1 + 1 = 2.\n\\] The two electric fields arrive with the same phase and add coherently. This is constructive interference. Now consider a direction satisfying \\[\nkdsin\\theta = \\pi.\n\\] Then \\[\ne^{jkdsin\\theta} = -1,\n\\] so \\[\nE(\\theta) \\propto 1 - 1 = 0.\n\\] The fields cancel. Thus, even if the two antennas are excited with exactly the same waveform and phase, the totla radiated field depends on direction.\nThe mechanism is\ndirection → path difference → propagation-phase difference → field interference.\nThis is the physical origin of directional radiation from an antenna array."
+  },
+  {
+    "objectID": "notes/radar/evolution-of-radar.html#why-equal-excitation-naturally-produces-a-broadside-beam",
+    "href": "notes/radar/evolution-of-radar.html#why-equal-excitation-naturally-produces-a-broadside-beam",
+    "title": "Evolution of Radar",
+    "section": "20.7 Why Equal Excitation Naturally Produces a Broadside Beam",
+    "text": "20.7 Why Equal Excitation Naturally Produces a Broadside Beam\nSuppose the two antennas start with the same phase. Then the transmit excitations are"
+  }
+]

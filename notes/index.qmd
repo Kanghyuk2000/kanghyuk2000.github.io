@@ -1,0 +1,24 @@
+---
+title: "Notes"
+toc: false
+---
+
+Technical notes on wireless systems, including wireless sensing, wireless communications, reconfigurable intelligent surfaces (RIS), and integrated sensing and communication.
+
+## Wireless Sensing
+
+Notes on radar systems, signal processing, array processing, and wireless sensing.
+
+- [Evolution of Radar](radar/evolution-of-radar.qmd)
+
+## Wireless Communications
+
+Notes on communication theory, wireless channels, OFDM, MIMO, and related signal processing.
+
+## Reconfigurable Intelligent Surfaces (RIS)
+
+Notes on RIS fundamentals, electromagnetic propagation, channel modeling, and RIS-aided wireless systems.
+
+## Integrated Sensing and Communication (ISAC)
+
+Notes on the integration of wireless communication and sensing systems.

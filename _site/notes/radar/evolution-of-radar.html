@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Evolution of Radar – Kanghyuk Seo</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed notes-page quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Kanghyuk Seo</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../notes/index.html"> 
+<span class="menu-text">Notes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#a-unified-view-of-radar" id="toc-a-unified-view-of-radar" class="nav-link" data-scroll-target="#a-unified-view-of-radar">A Unified View of Radar</a></li>
+  <li><a href="#the-fundamental-radar-measurement" id="toc-the-fundamental-radar-measurement" class="nav-link" data-scroll-target="#the-fundamental-radar-measurement">The Fundamental Radar Measurement</a></li>
+  <li><a href="#basic-pulse-radar-range-appears-directly-on-the-time-axis" id="toc-basic-pulse-radar-range-appears-directly-on-the-time-axis" class="nav-link" data-scroll-target="#basic-pulse-radar-range-appears-directly-on-the-time-axis">Basic Pulse Radar: Range Appears Directly on the Time Axis</a></li>
+  <li><a href="#pulse-compression-spreading-energy-in-time-and-recompressing-it" id="toc-pulse-compression-spreading-energy-in-time-and-recompressing-it" class="nav-link" data-scroll-target="#pulse-compression-spreading-energy-in-time-and-recompressing-it">Pulse Compression: Spreading Energy in Time and Recompressing It</a></li>
+  <li><a href="#moving-targets-and-the-emergence-of-slow-time" id="toc-moving-targets-and-the-emergence-of-slow-time" class="nav-link" data-scroll-target="#moving-targets-and-the-emergence-of-slow-time">Moving Targets and the Emergence of Slow Time</a></li>
+  <li><a href="#range-doppler-radar-as-a-two-dimensional-energy-representation" id="toc-range-doppler-radar-as-a-two-dimensional-energy-representation" class="nav-link" data-scroll-target="#range-doppler-radar-as-a-two-dimensional-energy-representation">Range-Doppler Radar as a Two-Dimensional Energy Representation</a></li>
+  <li><a href="#fmcw-radar-converting-delay-into-frequency" id="toc-fmcw-radar-converting-delay-into-frequency" class="nav-link" data-scroll-target="#fmcw-radar-converting-delay-into-frequency">FMCW Radar: Converting Delay into Frequency</a></li>
+  <li><a href="#the-time-frequency-meaning-of-fmcw-dechirping" id="toc-the-time-frequency-meaning-of-fmcw-dechirping" class="nav-link" data-scroll-target="#the-time-frequency-meaning-of-fmcw-dechirping">The Time-Frequency Meaning of FMCW Dechirping</a></li>
+  <li><a href="#from-time-frequency-processing-to-spatial-processing" id="toc-from-time-frequency-processing-to-spatial-processing" class="nav-link" data-scroll-target="#from-time-frequency-processing-to-spatial-processing">From Time-Frequency Processing to Spatial Processing</a></li>
+  <li><a href="#spatial-frequency" id="toc-spatial-frequency" class="nav-link" data-scroll-target="#spatial-frequency">Spatial Frequency</a></li>
+  <li><a href="#direction-as-a-spatial-tone" id="toc-direction-as-a-spatial-tone" class="nav-link" data-scroll-target="#direction-as-a-spatial-tone">Direction as a Spatial Tone</a></li>
+  <li><a href="#spatial-fourier-transform" id="toc-spatial-fourier-transform" class="nav-link" data-scroll-target="#spatial-fourier-transform">Spatial Fourier Transform</a></li>
+  <li><a href="#the-direct-analogy-with-fmcw-processing" id="toc-the-direct-analogy-with-fmcw-processing" class="nav-link" data-scroll-target="#the-direct-analogy-with-fmcw-processing">The Direct Analogy with FMCW Processing</a></li>
+  <li><a href="#spatial-sampling" id="toc-spatial-sampling" class="nav-link" data-scroll-target="#spatial-sampling">Spatial Sampling</a></li>
+  <li><a href="#beamforming-as-spatial-phase-alignment" id="toc-beamforming-as-spatial-phase-alignment" class="nav-link" data-scroll-target="#beamforming-as-spatial-phase-alignment">Beamforming as Spatial Phase Alignment</a></li>
+  <li><a href="#beamforming-and-spatial-fourier-analysis" id="toc-beamforming-and-spatial-fourier-analysis" class="nav-link" data-scroll-target="#beamforming-and-spatial-fourier-analysis">Beamforming and Spatial Fourier Analysis</a></li>
+  <li><a href="#aperture-length-and-angular-resolution" id="toc-aperture-length-and-angular-resolution" class="nav-link" data-scroll-target="#aperture-length-and-angular-resolution">Aperture Length and Angular resolution</a></li>
+  <li><a href="#finite-aperture-mainlobes-and-sidelobes" id="toc-finite-aperture-mainlobes-and-sidelobes" class="nav-link" data-scroll-target="#finite-aperture-mainlobes-and-sidelobes">Finite Aperture, Mainlobes, and Sidelobes</a></li>
+  <li><a href="#phased-array-transmission-from-reading-spatial-frequency-to-creating-it" id="toc-phased-array-transmission-from-reading-spatial-frequency-to-creating-it" class="nav-link" data-scroll-target="#phased-array-transmission-from-reading-spatial-frequency-to-creating-it">Phased-Array Transmission: From Reading Spatial Frequency to Creating It</a></li>
+  <li><a href="#from-a-transmitted-signal-to-a-radiated-electronic-field" id="toc-from-a-transmitted-signal-to-a-radiated-electronic-field" class="nav-link" data-scroll-target="#from-a-transmitted-signal-to-a-radiated-electronic-field">From a Transmitted Signal to a Radiated Electronic field</a></li>
+  <li><a href="#propagation-of-the-radiated-waveform" id="toc-propagation-of-the-radiated-waveform" class="nav-link" data-scroll-target="#propagation-of-the-radiated-waveform">Propagation of the Radiated Waveform</a></li>
+  <li><a href="#including-propagation-loss-and-the-antenna-response" id="toc-including-propagation-loss-and-the-antenna-response" class="nav-link" data-scroll-target="#including-propagation-loss-and-the-antenna-response">Including Propagation Loss and the Antenna Response</a></li>
+  <li><a href="#why-the-propagation-phase-is-the-key-quantity-for-an-array" id="toc-why-the-propagation-phase-is-the-key-quantity-for-an-array" class="nav-link" data-scroll-target="#why-the-propagation-phase-is-the-key-quantity-for-an-array">Why the Propagation Phase Is the Key Quantity for an Array</a></li>
+  <li><a href="#two-transmit-antennas-relative-field-phase" id="toc-two-transmit-antennas-relative-field-phase" class="nav-link" data-scroll-target="#two-transmit-antennas-relative-field-phase">Two Transmit Antennas: Relative Field Phase</a></li>
+  <li><a href="#constructive-and-destructive-interference" id="toc-constructive-and-destructive-interference" class="nav-link" data-scroll-target="#constructive-and-destructive-interference">Constructive and Destructive Interference</a></li>
+  <li><a href="#why-equal-excitation-naturally-produces-a-broadside-beam" id="toc-why-equal-excitation-naturally-produces-a-broadside-beam" class="nav-link" data-scroll-target="#why-equal-excitation-naturally-produces-a-broadside-beam">20.7 Why Equal Excitation Naturally Produces a Broadside Beam</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Evolution of Radar</h1>
+<p class="subtitle lead">Evolution of Radar Signal Processing Through Energy Geometry in Time, Frequency, and Space</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Radar signal processing is often introduced as a collection of individual techniques, including pulse compression, Doppler processing, FMCW dechirping, beamforming, phased arrays, MIMO radar, and SAR. Although each techque has its own physical motivation and mathematical formulation, studying them independently can make it difficult to recognize the common signal-processing principles that connect them. This note is an attempt to organize these techniques according to my own understanding of radar signal processing, developed through my studies and research experience. Rather than presenting a comprehensive text treatment or a strict historical account of radar development, I aim to build a continuous interpretation of how radar systems encode physical information into signal structures and how those structures are subsequently transformed, separated, concentrated, or synthesized across time, frequency, and space.</p>
+<p>The central question throughout this note is:</p>
+<p><strong>How is the energy of a radar signal formed in a particular domain, and how does signal processing reshape or interpret that energy to extract physical information?</strong></p>
+<p>For example, an LFM signal forms a chirped trajectory in the time-frequency plane. In pulse compression, matched filtering compensates the corresponding phase structure so that the distributed signal energy becomes concentrated at a specific time or spatial position. In FMCW radar, by contrast, dechirping converts propagation delay into a beat frequency, producing a constant-frequency structure whose location can be identified through Fourier analysis. Doppler processing similarly interprets a slow-time sinusoid in terms of radial velocity. The same perspective can be extended from temporal processing to spatial processing. A plane wave arriving at an antenna array produces a spatial phase progression across the aperture. This progression can be interpreted as a spatial frequency, allowing Fourier-domain intuition developed for temporal signals to be extended naturally to array processing, beamforming, phased arrays, and eventually MIMO radar.</p>
+<p>Accordingly, the discussion will repeatedly follow the conceptual sequence</p>
+<p><strong>Physical parameter → signal structure → energy geometry → processing operation → energy concentration or separation → physical interpretation</strong></p>
+<p>The goal is to understand why each operation is appropriate for the signal structure produced by a particular radar configuration, and how the resulting representation reveals the desired physical quantity. From this viewpoint, the evolution or radar can be interpreted not only as a progression of hardware architectures or individual algorithms, but also an expansion of the domains in which radar can encode and manipulate information:</p>
+<p><strong>time → time and frequency → slow time → space → synthetic and virtual spatial dimensions.</strong></p>
+<p>This note therefore develops a personal, signal-centric view of the evoltion of radar techniques, with particualr emphasis on the geometry of signal energy and the relationship between temporal, spectral, and spatial processing.</p>
+</section>
+<section id="a-unified-view-of-radar" class="level2">
+<h2 class="anchored" data-anchor-id="a-unified-view-of-radar">A Unified View of Radar</h2>
+<p>Radar can be understood as a system that converts physical properties of a scene into structured distributions of signal energy, processes those structures in an appropriate domain, and finally interprets the resulting energy concentration in terms of physical parameters such as range, velocity, and direction.</p>
+<p>Each technique is interpreted through the following sequence:</p>
+<p><strong>Physical parameter → signal structure → energy geometry → processing operation → energy concentration or separation → physical interpretation</strong></p>
+</section>
+<section id="the-fundamental-radar-measurement" class="level2">
+<h2 class="anchored" data-anchor-id="the-fundamental-radar-measurement">The Fundamental Radar Measurement</h2>
+<div id="fig-receiver" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-receiver-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Rdr_Receiver.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-receiver-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Receiver structure.
+</figcaption>
+</figure>
+</div>
+<div id="fig-receiver" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-receiver-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Rdr_Receiver2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-receiver-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Receiver structure.
+</figcaption>
+</figure>
+</div>
+<p>Consider first a monostatic radar transmitting a complex-basedband waveform <span class="math inline">\(s(t)\)</span> at carrier frequency <span class="math inline">\(f_c\)</span>. The transmitted RF waveform can be written as <span class="math display">\[
+x_{\mathrm{RF}}(t)
+=
+\Re
+\left\{
+s(t)e^{j2\pi f_c t}
+\right\}.
+\]</span> For a stationary point target at range <span class="math inline">\(R\)</span>, the round-trip propagation delay is <span class="math display">\[
+\tau=\frac{2R}{c}.
+\]</span> Ignoring secondary effects, the received basedband signal can be represented as <span class="math display">\[
+r(t)=\alpha s(t-\tau) e^{-j2\pi f_c\tau},
+\]</span> where <span class="math inline">\(\alpha\)</span> contains propagation loss, target scattering, and constant phase terms. The first important interpretation is that range appears in two related ways: <strong>R → <span class="math inline">\(\tau\)</span> → envelope displacement</strong> and <strong>R →<span class="math inline">\(e^{-j4\pi R / \lambda}\)</span> → carrier phase</strong> with <span class="math inline">\(\lambda=c/f_c\)</span>. Thus, even the simplest radar measurement already contains both temporal and phase information.<br>
+For a moving target, <span class="math inline">\(R=R(t)\)</span>, and therefore <span class="math inline">\(\tau(t)=\frac{2R(t)}{c}\)</span>. The more fundamental received-signal model is consequently<br>
+<span class="math display">\[
+r(t)=\alpha s(t-\tau(t))e^{j2\pi f_c \tau(t)}
+\]</span> Both the envelope delay and the carrier phase are affected by target motion. The familiar Doppler-only representation arises only after appropriate approximatinos. This starting point is important because every later radar technique can be viewed as exploiting a particular structure generated by <span class="math inline">\(R(t)\)</span>, the waveform, the observation coordinate, or the antenna geometry.</p>
+</section>
+<section id="basic-pulse-radar-range-appears-directly-on-the-time-axis" class="level2">
+<h2 class="anchored" data-anchor-id="basic-pulse-radar-range-appears-directly-on-the-time-axis">Basic Pulse Radar: Range Appears Directly on the Time Axis</h2>
+<p>The earliest and conceptually simplest range measurement uses a short pulse. If <span class="math inline">\(s(t)=p(t)\)</span>, then a stationary target produces <span class="math inline">\(r(t)=\alpha p(t-\tau)\)</span>. Conceptually,</p>
+<p><strong>R → <span class="math inline">\(\tau\)</span> → time-axis position</strong></p>
+<p>and therefore <span class="math inline">\(R=c\tau/2\)</span>. No additional parameter conversion is required. The physical propagation delay itself becomes the observable coordinate. The difficulty is that high range resolution requires a short pulse, which in turn requires potentially high peak power for a fixed transmitted energy. This limitation motivates pulse compression.</p>
+</section>
+<section id="pulse-compression-spreading-energy-in-time-and-recompressing-it" class="level2">
+<h2 class="anchored" data-anchor-id="pulse-compression-spreading-energy-in-time-and-recompressing-it">Pulse Compression: Spreading Energy in Time and Recompressing It</h2>
+<div id="fig-MF" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-MF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Rdr_MF.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-MF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Matched Filtering.
+</figcaption>
+</figure>
+</div>
+<p>Instead of transmitting a very short pulse, radar can transmit a longer waveform with large bandwidth. For an LFM waveform, <span class="math display">\[s(t)=A(t)e^{j\pi Kt^2},\]</span> the instantaneous frequency is <span class="math display">\[f_i(t) = Kt.\]</span> In the time-frequency plane, the signal energy is therefore distributed approximately along a slanted trajectory.<br>
+Conceptually, <strong>time-frequency energy ~ slanted line.</strong> The important fact is that the transmitted energy is extended over time, but it is not arbitrary. It follows a deterministic phase law. The matched-filter operation exploits this known phase structure. In a frequency-domain implementation, <span class="math display">\[ S_{out}(f) = S_r(f) H_{MF}(f),\]</span> where <span class="math inline">\(H_{MF}(f)\)</span> contains the conjugate phase of the reference waveform. When the received waveform and reference model are properly matched, the phase is compensated. In the present viewpoint,</p>
+<p><strong>distributed chirped energy → frequency-domain phase compensation → inverse Fourier transform → time localization</strong></p>
+<p>is the essence of pulse compression.</p>
+<p>In a time-frequency interpretation, the original LFM trajectory is transformed so that, after compression, the residual energy is associated with a single delay location. Conceptually, the energy becomes aligned with a fixed time coordinate, and its projection onto the time axis becomes sharply concentrated. This is the sense in which matched filtering will be used throughout this discussion.</p>
+</section>
+<section id="moving-targets-and-the-emergence-of-slow-time" class="level2">
+<h2 class="anchored" data-anchor-id="moving-targets-and-the-emergence-of-slow-time">Moving Targets and the Emergence of Slow Time</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Rdr_MT1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Rdr_MT2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+<p>A single pulse provides primarily range information. To obtain motion information, radar transmits repeated pulses. This introduces a second observation coordinate: <strong>fast time</strong> for range, and <strong>slow time</strong> for pulse-to-pulse evolutinon. The cruitial distinction from pulse compression is that, under the constant-Doppler approximation, the slow-time signal is already a sinusoid. Its energy is already associated with a single Doppler frequency. In a slow-time/frequency representation, the signal is therefore conceptually horizontal: <span class="math inline">\(f_{t_{slow}}=f_D.\)</span> Nothing is required. The Fourier transform simply reveals the frequency at which the energy already exists. Thus,</p>
+<p><strong>radial motion → slow-time phase progression → slow-time sinusoid → Fourier transform → Doppler peak</strong></p>
+<p>and <span class="math inline">\(f_D → v_r\)</span>. This distinction will be maintained: Doppler FFT processing is not referred to here as matched filtering.</p>
+</section>
+<section id="range-doppler-radar-as-a-two-dimensional-energy-representation" class="level2">
+<h2 class="anchored" data-anchor-id="range-doppler-radar-as-a-two-dimensional-energy-representation">Range-Doppler Radar as a Two-Dimensional Energy Representation</h2>
+<p>Repeated-pulse radar therefore generates a two-dimensional dataset, <span class="math display">\[ x(t,m), \]</span> where <span class="math inline">\(t\)</span> is fast time and <span class="math inline">\(m\)</span> is slow time.<br>
+The two dimensinos encode different physical phenomena. Fast time contains propagation delay and therefore range information. Slow time contains pulse-to-pulse phase progression and therefore Doppler information. If an LFM pulse is transmitted, fast-time processing first performs pulse compression. Doppler processing then performs Fourier analysis along slow time. The result is a range-Doppler representation, <span class="math display">\[X(R,f_D).\]</span> Range axis and Doppler axis are produced from two different signal geometries. For range, the distributed waveform energy is compressed into delay. For Doppler, an already existing slow-time tone is spectrally resolved. The resulting range-Doppler map is therefore a physical reorganization of the received signal energy into coordinates directly related to target range and radial velocity.</p>
+</section>
+<section id="fmcw-radar-converting-delay-into-frequency" class="level2">
+<h2 class="anchored" data-anchor-id="fmcw-radar-converting-delay-into-frequency">FMCW Radar: Converting Delay into Frequency</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Rdr_FMCW.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+<p>FMCW radar introduces a different philosophy for measuring range. Considering a transmitted chirp <span class="math display">\[
+s_T(t) = e^{j2\pi (f_ct+\frac{K}{2}t^2)}
+\]</span> For a stationary target with delay <span class="math inline">\(\tau\)</span>, <span class="math display">\[
+s_R(t) = \alpha e^{j2\pi [f_c(t-\tau)+\frac{K}{2}(t-\tau)^2]}
+\]</span> In the time-frequency plane, the transmitted and received signals from approximately parallel chirp trajectories. Their displacement is caused by the propagation delay. The key processing step in FMCW radar is not matched filtering in the sense defined above. Instead, the transmitted and received chirps are mixed: <span class="math display">\[
+s_b(t) = s_T(t)s^{*}_R(t),
+\]</span> up to the chosen mixing convention. Expanding the phase causes the common quadratic chirp term to cancel. The remaining time-dependent phase is linear: <span class="math display">\[
+s_b(t) = Ce^{j2\pi f_b t},
+\]</span> where approximately <span class="math display">\[
+f_b = K\tau
+\]</span> for a stationary target.<br>
+Thus, dechirping performs a fundamental parameter conversion: <span class="math display">\[
+\tau → f_b.
+\]</span> The range delay is no longer read directly a time displacement. It has been encoded into the frequency of a beat tone.</p>
+</section>
+<section id="the-time-frequency-meaning-of-fmcw-dechirping" class="level2">
+<h2 class="anchored" data-anchor-id="the-time-frequency-meaning-of-fmcw-dechirping">The Time-Frequency Meaning of FMCW Dechirping</h2>
+<p>The time-frequency interpretation makes the difference from matched filtering especially clear. Before dechirping, the received signal has a slanted chirp trajectory. After dechirping, the quadratic phase has been removed, and the signal becomes a constant-frequency tone. Therefore,</p>
+<p><strong>slanted chirp trajectory → dechirping → horizontal constant-frequency structure</strong></p>
+<p>in the time-frequency plane. The signal energy is now concentrated at one beat frequency across the observation time. The subsequent Fourier transform does not perform the dechirping itself. It simply resolves the beat tone on the frequency axis: <span class="math inline">\(S_b(f)\)</span> → peak at <span class="math inline">\(f_b\)</span>. The complete range-estimation chain is therefore</p>
+<p><strong><span class="math inline">\(R\)</span> → <span class="math inline">\(\tau\)</span> → relative chirp displacement → dechirping → <span class="math inline">\(f_b\)</span> → Fourier transform → range estimate.</strong></p>
+<p>This distinction is central. Pulse compression transforms a chirped waveform into a localized delay response through phase compensation and inverse tranformation. FMCW processing instead converts delay into frequency through mixing, after which the resulting frequency is measured. The two approaches ultimately estimate range, but their energy transformations are fundamentally different.</p>
+</section>
+<section id="from-time-frequency-processing-to-spatial-processing" class="level2">
+<h2 class="anchored" data-anchor-id="from-time-frequency-processing-to-spatial-processing">From Time-Frequency Processing to Spatial Processing</h2>
+<p><strong>Up to this point, the main independent variables have been temporal.</strong> <em>Fast time</em> describes propagation delay. <em>Slow time</em> describes pulse-to-pulse evolution.<br>
+The next major step in radar evolution is to introduce space itself as an observation cooridnate. Suppose several receive antennas are positioned along a line: <span class="math display">\[
+x_n=nd,     n=0,...,N_R-1.
+\]</span> A far-field plane wave arriving from angle <span class="math inline">\(\theta\)</span> encounters slightly different propagation distances at different antenna locations. For a ULA, <span class="math display">\[
+\Delta R = d sin\theta
+\]</span> between adjacent elements, under the chosen angle convention. The correponding phase difference is <span class="math display">\[
+\Delta \phi = kd sin\theta
+\]</span> where <span class="math inline">\(k=\frac{2\pi}{\lambda}\)</span>. Therefore, the received signal across the array is <span class="math display">\[
+x[n] = Ae^{jnkdsin\theta}.
+\]</span> This equation is the <strong>fundamental bridge between temporal and spatial signal processing</strong>.</p>
+</section>
+<section id="spatial-frequency" class="level2">
+<h2 class="anchored" data-anchor-id="spatial-frequency">Spatial Frequency</h2>
+<p>Compare the array signal <span class="math display">\[
+x[n] = Ae^{jnkd sin\theta}
+\]</span> with a discrete-time complex sinusoid, <span class="math display">\[
+x[m] = Ae^{jwm}.
+\]</span> They have exactly the same methematical structure. The difference is only the independent variable. In temporal processing, <span class="math inline">\(m\)</span> indexes time samples. In array processing, <span class="math inline">\(n\)</span> indexes spatial samples. Define <span class="math display">\[
+\psi = kd sin\theta.
+\]</span> Then <span class="math display">\[
+x[n] = Ae^{jn\psi}.
+\]</span> The quantity <span class="math inline">\(\psi\)</span> is a normalized spatial frequency. In continuous space, <span class="math display">\[
+x(x) = Ae^{j\kappa_xx},
+\]</span> where <span class="math display">\[
+\kappa_x = k sin\theta = \frac{2\pi}{\lambda} sin\theta
+\]</span> Thus, temporal frequency measures phase variation with respect to time, <span class="math display">\[
+\frac{d\phi}{dt},
+\]</span> whereas <strong>the spatial frequency measures phase variation with respect to position</strong>, <span class="math display">\[
+\frac{d\phi}{dx}.
+\]</span> This is the fundamental meaning of <em>spatial frequency</em>.</p>
+</section>
+<section id="direction-as-a-spatial-tone" class="level2">
+<h2 class="anchored" data-anchor-id="direction-as-a-spatial-tone">Direction as a Spatial Tone</h2>
+<p>The physical angle <span class="math inline">\(\theta\)</span> therefore does not appear at the receiver as an abstract angular label. It produces a measurable spatial phase slope. The complete relationship is</p>
+<p><strong><span class="math inline">\(\theta\)</span> → path difference → inter-element phase progression → spatial frequency.</strong></p>
+<p>In the spatial-position / spatial-frequency plane, a single far-field plane wave behaves analogously to a temporal pure tone. Its spatial frequency is constant: <span class="math display">\[
+\kappa_x = k sin\theta.
+\]</span> Conceptually, <strong>energy ~ horizontal line at <span class="math inline">\(\kappa_x\)</span></strong>. This is directly analogous to the FMCW beat signal after dechirping: <span class="math inline">\(f=f_b\)</span>. The correspondence is <span class="math display">\[
+e^{j2\pi f_b t} ↔ e^{j\kappa_x x}.
+\]</span> The formal is a temporal tone. The latter is a spatial tone.</p>
+</section>
+<section id="spatial-fourier-transform" class="level2">
+<h2 class="anchored" data-anchor-id="spatial-fourier-transform">Spatial Fourier Transform</h2>
+<p>If <span class="math display">\[
+x(x) = Ae^{j\kappa_0 x},
+\]</span> the spatial Fourier transform is <span class="math display">\[
+X(\kappa) = \int{x(x)e^{-j\kappa x}dx}.
+\]</span> For an ideal infinite aperture, <span class="math display">\[
+X(\kappa)\propto \delta(\kappa - \kappa_0).
+\]</span> Thus, the spatial Fourier transform produces a peak at <span class="math display">\[
+\kappa = \kappa_0
+\]</span> Since <span class="math display">\[ \kappa_0 = k sin\theta, \]</span> the arrivial angle is obtained from <span class="math display">\[ \theta = sin^{-1}(\frac{\kappa_0}{k}).\]</span> The signal-processing chain is therefore</p>
+<p><strong><span class="math inline">\(\theta\)</span> → <span class="math inline">\(\kappa_x\)</span> → spatial Fourier transform → spatial-frequency peak → <span class="math inline">\(\theta\)</span>.</strong></p>
+<p>This is conceptually much close to Doppler processing than to matched filtering. No additional operation analogous to FMCW dechirping is necessary. Propagation geometry itself has already encoded angle into a spatial tone. The spatial Fourier transform reads that tone.</p>
+</section>
+<section id="the-direct-analogy-with-fmcw-processing" class="level2">
+<h2 class="anchored" data-anchor-id="the-direct-analogy-with-fmcw-processing">The Direct Analogy with FMCW Processing</h2>
+<p>The analogy with FMCW becomes especially clear after dechirping. For FMCW, <span class="math display">\[
+s_b(t) = Ae^{j2\pi f_b t}.
+\]</span> The Fourier transform over time produces <span class="math inline">\(f_b\)</span>. For the receive array, <span class="math display">\[
+x(x) = Ae^{j\kappa_x x}.
+\]</span> The Fourier transform over position produces <span class="math inline">\(\kappa_x\)</span>. Therefore,</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Rdr_Analogy.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
+</figure>
+</div>
+<p>The difference is that FMCW first requires a dechirping operation to convert delay into a tone, whereas the receive array naturally receives a spatial tone because of plane-wave propagation.</p>
+</section>
+<section id="spatial-sampling" class="level2">
+<h2 class="anchored" data-anchor-id="spatial-sampling">Spatial Sampling</h2>
+<p>A practical array does not observe the continuous spatial field. It samples the field at discrete antenna positions, <span class="math display">\[
+x_n = nd.
+\]</span> Thus, <span class="math display">\[
+x[n] = Ae^{jnkdsin\theta}.
+\]</span> This is mathematically identical to sampling a continuous temporal sinusoid. The antenna spacing <span class="math inline">\(d\)</span> therefore plays a role analogous to the temporal sampling interval. The correspondence is <span class="math display">\[
+T_s ↔ d.
+\]</span></p>
+<p>Consequently, familiar DSP concepts immediately acquire spatial counterparts.</p>
+<p>Again, the role of the FFT is principally spectral readout. The angle has already been encoded into the spatial phase progression by propagation. The FFT determines which spatial frequency is present. This is the basis of the commonly used <strong>angle FFT</strong>.</p>
+</section>
+<section id="beamforming-as-spatial-phase-alignment" class="level2">
+<h2 class="anchored" data-anchor-id="beamforming-as-spatial-phase-alignment">Beamforming as Spatial Phase Alignment</h2>
+<p>Beamforming can now be under stood from the same spatial-frequency viewpoit. Suppose a target is located at <span class="math inline">\(\theta_s\)</span>, producing</p>
+<p><span class="math display">\[
+\mathbf{x} = \alpha \mathbf{a}(\theta_s),
+\]</span></p>
+<p>where</p>
+<p><span class="math display">\[
+\mathbf{a}(\theta)
+=
+\begin{bmatrix}
+1 \\
+e^{jkd\sin\theta} \\
+e^{j2kd\sin\theta} \\
+\vdots
+\end{bmatrix}.
+\]</span></p>
+<p>To examine a candidate direction <span class="math inline">\(\theta_0\)</span>, the receiver applies the conjugate phase progression corresponding to that angle:</p>
+<p><span class="math display">\[
+y(\theta_0)
+=
+\mathbf{a}^{H}(\theta_0)\mathbf{x}.
+\]</span></p>
+<p>If</p>
+<p><span class="math display">\[
+\theta_0 = \theta_s,
+\]</span></p>
+<p>the spatial phase progression is exactly removed:</p>
+<p><span class="math display">\[
+e^{jnkd\sin\theta_s}
+e^{-jnkd\sin\theta_s}
+=
+1.
+\]</span> All antenna channels therefore add coherently. Hence,</p>
+<p><strong>receive beamforming = spatial phase alignment + coherent summation.</strong> It is useful to distinguish this physically from the matched-filter terminology adopted earlier. The signal is not first a chirped time-frequency trajectory that is transformed into a localized time response. Instead, the received wave already possesses a spatial sinusoidal structure, and beamforming compensates the spatial phase progression corresponding to a selected direction.</p>
+</section>
+<section id="beamforming-and-spatial-fourier-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="beamforming-and-spatial-fourier-analysis">Beamforming and Spatial Fourier Analysis</h2>
+<p>For a ULA, <span class="math display">\[
+y(\theta_0)=
+\sum_{n=0}^{N-1}
+x[n]e^{-jnkd\sin\theta_0}.
+\]</span> Compare this with the spatial Fourier transform, <span class="math display">\[
+X(\kappa)=\sum_{n}x[n]e^{j\kappa nd}.
+\]</span> They become identical when <span class="math display">\[
+\kappa = k sin\theta_0.
+\]</span> Therefore, conventional beamforming can be interpreted as evaluating the spatial Fourier spectrum at the spatial frequency corresponding to a selected angle. This leads to an important distinction: <strong>beamforming = evaluate one or selected spatial directions</strong> whereas <strong>angle FFT = evaluate many uniformly spaced spatial-frequency bins simultaneously.</strong> Their physical basis is the same spatial phase structure.</p>
+</section>
+<section id="aperture-length-and-angular-resolution" class="level2">
+<h2 class="anchored" data-anchor-id="aperture-length-and-angular-resolution">Aperture Length and Angular resolution</h2>
+<p>The temporal-frequency analogy becomes especially useful for understanding resolution. A finite temporal observation interval limits frequency resolution. Likewise, a finite spatial aperture limits angular resolution. If the array aperture length is approximately <span class="math display">\[
+L\approx Nd,
+\]</span> then the spatial-frequency resolution is roughly inversely related to <span class="math inline">\(L\)</span>: <span class="math display">\[
+\Delta\kappa \sim \frac{2\pi}{L}.
+\]</span> Since <span class="math display">\[
+\kappa = k sin\theta,
+\]</span> a larger aperture allows closer spatial frequencies, and therefore close angles, to be distinguished. Thus, <strong>longer time observation → finer frequency resolution</strong> correponds directly to <strong>larger spatial aperture → finer angular resolution</strong>. This is one of the most useful correspondences between conventional signal processing and array processing.</p>
+</section>
+<section id="finite-aperture-mainlobes-and-sidelobes" class="level2">
+<h2 class="anchored" data-anchor-id="finite-aperture-mainlobes-and-sidelobes">Finite Aperture, Mainlobes, and Sidelobes</h2>
+<p>An infinite sinusoid would produce an ideal delta function in frequency. A finite-duration sinusoid produces a broadened spectral response with sidelobes. Exactly the same phenomenon occurs spatially. A finite array observes the spatial sinusoid only over a finite aperture. Thus, a point target at one angle does not produce an infinitely narrow angular delta. It produces a finite mainlobe and sidelobes. The correspondence is</p>
+<p><strong>finite temporal window ↔︎ finite spatial aperture</strong></p>
+<p>and</p>
+<p><strong>spectral mainlobe/sidelobes ↔︎ beam mainlobe/sidelobes.</strong></p>
+<p>Spatial tapering is consequently analogous to temporal windowing. Applying antenna weights <span class="math inline">\(w[n]\)</span> can reduce sidelobes at the cost of increased beamwidth, just as a temporal window trades spectral sidelobe level against frequency resolution.</p>
+</section>
+<section id="phased-array-transmission-from-reading-spatial-frequency-to-creating-it" class="level2">
+<h2 class="anchored" data-anchor-id="phased-array-transmission-from-reading-spatial-frequency-to-creating-it">Phased-Array Transmission: From Reading Spatial Frequency to Creating It</h2>
+<p>Up to this point, the array has been considered primarily from the receive side. When a plane wave arrives from direction <span class="math inline">\(\theta\)</span>, propagation itself generates a spatial phase progression across the receiving aperture. For a uniform linear array (ULA), <span class="math display">\[
+x[n] = Ae^{jnkdsin\theta},
+\]</span> where <span class="math display">\[
+k=2\pi/\lambda
+\]</span> The arrival angle is therefore encoded as a spatial frequency <span class="math inline">\(\kappa_x=ksin\theta.\)</span> The receiver does not need to create this spatial structure. It is naturally produced by propagation. The role of receive-array processing is then to interprete this structure through spatial Fourier analysis or beamforming. Phased-array transmission reverses this perspective. Instead of asking</p>
+<p><em>What spatial phase pattern does a wave arriving from a given direction produce across the array?</em></p>
+<p>we now ask</p>
+<p><em>What spatial phase pattern should be created across the transmitting array so that the radiated waves combine coherently in a desired direction?</em></p>
+<p>This reversal,</p>
+<p><strong>Receive:direction → spatial phase</strong></p>
+<p>versus</p>
+<p><strong>Transmit: designed spatial phase → directional radiation</strong></p>
+<p>is the fundamental idea of phased-array transmission.</p>
+</section>
+<section id="from-a-transmitted-signal-to-a-radiated-electronic-field" class="level2">
+<h2 class="anchored" data-anchor-id="from-a-transmitted-signal-to-a-radiated-electronic-field">From a Transmitted Signal to a Radiated Electronic field</h2>
+<p>Before considering multiple transmit antennas, it is useful to clarify what is physically being transmitted. Throughout the previous signal-processing discussion, a radar waveform has often been represented by a complex baseband signal <span class="math display">\[
+s(t) = A(t)e^{j\phi(t)}
+\]</span> The quantity <span class="math inline">\(s(t)\)</span> is a signal-processing representation. It is not ifself the electric field propagating through space. The corresponding physical RF excitation at an antenna port may be represented, for example, by the voltage <span class="math display">\[
+v_{\mathrm{RF}}(t)
+=
+\Re\left\{
+s(t)e^{j2\pi f_c t}
+\right\}.
+\]</span> If <span class="math display">\[
+s(t) = A(t)e^{j\phi(t)},
+\]</span> then <span class="math display">\[
+v_{RF}(t)=A(t)cos(2\pi f_ct+\phi(t)).
+\]</span> This RF voltage and the corresponding RF current excite a time-varying current distribution on the antenna. That current distribution radiates an electromagnetic field into space. The physical field is described by</p>
+<p><span class="math display">\[
+\mathbf{E}(\mathbf{r}, t)
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+\mathbf{H}(\mathbf{r}, t),
+\]</span> where <span class="math inline">\(\mathbf{r}\)</span> denotes specifies the observation position. For signal-processing anaylsis, it is convenient to express the radiated electric field using a complex representation. At a distant observation point, its structure can be written schematically as <span class="math display">\[
+\mathbf{E}_{\mathrm{phys}}(\mathbf{r},t)
+=
+\Re\left\{
+\widetilde{\mathbf{E}}(\mathbf{r},t)
+e^{j2\pi f_c t}
+\right\},
+\]</span> where <span class="math inline">\(\widetilde{\mathbf{E}}(\mathbf{r},t)\)</span> is the complex envelope of the radiated electric field. The radiated field carries the temporal waveform described by <span class="math inline">\(s(t)\)</span>.</p>
+</section>
+<section id="propagation-of-the-radiated-waveform" class="level2">
+<h2 class="anchored" data-anchor-id="propagation-of-the-radiated-waveform">Propagation of the Radiated Waveform</h2>
+<p>Suppose the observation point is a distance <span class="math inline">\(r\)</span> from the antenna. Because electromagnetic waves propagate at approximately the speed of light <span class="math inline">\(c\)</span>, the waveform observed at this point is delayed by <span class="math display">\[
+\tau_r = \frac{r}{c}.
+\]</span> Therefore, the baseband waveform becomes <span class="math display">\[
+s(t-\frac{r}{c}).
+\]</span> At the same time, the RF carrier also experiences this propagation delay. Starting from <span class="math display">\[
+e^{j2\pi f_c t},
+\]</span> a delay <span class="math inline">\(r/c\)</span> gives <span class="math display">\[
+e^{j2\pi f_c (t-\frac{r}{c})}
+\]</span> This can be separated as <span class="math display">\[
+e^{j2\pi f_c t} e^{-j2\pi f_c \frac{r}{c}}.
+\]</span> Since <span class="math display">\[
+\lambda = \frac{c}{f_c},
+\]</span> and <span class="math display">\[
+k=\frac{2\pi}{\lambda},
+\]</span> we obtain <span class="math display">\[
+\frac{2\pi f_c r}{c} = kr
+\]</span> Hence, <span class="math display">\[
+e^{j2\pi f_c (t-\frac{r}{c})} = e^{2\pi f_c t} e^{-jkr}.
+\]</span> This explains the propagation-phase term <span class="math display">\[
+e^{-jkr}.
+\]</span> Therefore, the same physical propagation delay <span class="math inline">\(r/c\)</span> appears in two different parts of the complex-envelope representation:</p>
+<p><strong>Waveform Delay <span class="math inline">\(s(t-\frac{r}{c})\)</span> and Carrier Phase Delay <span class="math inline">\(e^{-jkr}\)</span>.</strong></p>
+</section>
+<section id="including-propagation-loss-and-the-antenna-response" class="level2">
+<h2 class="anchored" data-anchor-id="including-propagation-loss-and-the-antenna-response">Including Propagation Loss and the Antenna Response</h2>
+<p>The electric-field amplitude also decreases with propagation distance. In the far field, <span class="math display">\[
+|\mathbf{E}| \propto \frac{1}{r}.
+\]</span> In addition, a real antenna does not radiate equally in every direction. Its directional field response can be represented by <span class="math display">\[
+\mathbf{F}(\theta, \phi).
+\]</span> Combining these effects, the complex envelope of the radiated electric field can be represented as <span class="math display">\[
+\widetilde{\mathbf{E}}(\mathbf{r},t)
+\propto
+\frac{\mathbf{F}(\theta,\phi)}{r}
+s\left(t-\frac{r}{c}\right)
+e^{-jkr}.
+\]</span></p>
+<p>Now every term has a clear meaning:</p>
+<p><span class="math display">\[
+\underbrace{
+s\left(t-\frac{r}{c}\right)
+}_{\text{delayed radar waveform}}
+\]</span></p>
+<p><span class="math display">\[
+\underbrace{
+e^{-jkr}
+}_{\text{carrier propagation phase}}
+\]</span></p>
+<p><span class="math display">\[
+\underbrace{
+\frac{1}{r}
+}_{\text{field-amplitude decay}}
+\]</span></p>
+<p><span class="math display">\[
+\underbrace{
+\mathbf{F}(\theta,\phi)
+}_{\text{single-antenna directional response}}
+\]</span></p>
+<p>This equation provides the bridge between the waveform notation used in radar signal processing and the actual electric field propagation through space.</p>
+</section>
+<section id="why-the-propagation-phase-is-the-key-quantity-for-an-array" class="level2">
+<h2 class="anchored" data-anchor-id="why-the-propagation-phase-is-the-key-quantity-for-an-array">Why the Propagation Phase Is the Key Quantity for an Array</h2>
+<p>For a single antenna, the absolute propagation phase <span class="math display">\[
+e^{-jkr}
+\]</span> is usually not very interesting by itself. For multiple antennas, however, the antennas occupy different spatial positions, Therefore, the propagation distance from each antenna to the same observation point is slightly different. If two antenna elements have propagation distances <span class="math display">\[
+r_0, r_1,
+\]</span> their fields contain <span class="math display">\[
+e^{-jkr_0}, e^{-jkr_1}.
+\]</span> Their relative phase is therefore determined by <span class="math display">\[
+e^{-jk(r_1 - r_0)}.
+\]</span> Defining the path difference as <span class="math display">\[
+\Delta r = r_1 - r_0,
+\]</span> we obtain <span class="math display">\[
+\Delta \phi = -k \Delta r.
+\]</span> Thus,</p>
+<p><strong>different antenna positions → different path lengths → different field phases.</strong></p>
+<p>This is exactly the point at which the single-antenna field description becomes array theory.</p>
+</section>
+<section id="two-transmit-antennas-relative-field-phase" class="level2">
+<h2 class="anchored" data-anchor-id="two-transmit-antennas-relative-field-phase">Two Transmit Antennas: Relative Field Phase</h2>
+<p>Consider two identical transmit antennas located at <span class="math display">\[
+x_0 = 0, x_1 = d.
+\]</span> Both antennas transmit the same radar waveform <span class="math inline">\(s(t)\)</span>. The electric field radiated by each antenna propagates toward an obsrvation point in direction <span class="math inline">\(\theta\)</span>. Let the corresponding propagation distances be <span class="math inline">\(r_0\)</span> and <span class="math inline">\(r_1\)</span>. From the previous section, the complex electric-field envelopes contain the propagation-phase terms <span class="math display">\[
+e^{-jkr_0}, e^{-jkr_1}
+\]</span> Therefore, after removing factors common to both fields, their relative phase is determined by <span class="math display">\[
+e^{-jk(r_1 - r_0)}.
+\]</span> For a far-field observation point, the path difference produced by the spatial separation <span class="math inline">\(d\)</span> is approximately <span class="math display">\[
+r_1 - r_0 \approx -d sin\theta
+\]</span> under the adopted coordinate convention. Therefore, <span class="math display">\[
+e^{-jk(r_1 - r_0)} \approx e^{jkdsin\theta}.
+\]</span> The second antenna thus contributes a relative spatial phase <span class="math display">\[
+e^{jkdsin\theta}.
+\]</span> The total electric field becomes<br>
+<span class="math display">\[
+E(\theta) \propto 1 + e^{jkdsin\theta}.
+\]</span> This equation is the simplest form of a transmit-array response. The important point is that the direction <span class="math inline">\(\theta\)</span> changes the <strong>relative propagation phase between the radiated fields</strong>.</p>
+</section>
+<section id="constructive-and-destructive-interference" class="level2">
+<h2 class="anchored" data-anchor-id="constructive-and-destructive-interference">Constructive and Destructive Interference</h2>
+<p>Consider first the broadside direction, <span class="math inline">\(\theta=0\)</span>. Then <span class="math display">\[
+kdsin\theta = 0,
+\]</span> and therefore <span class="math display">\[
+E(0) \propto 1 + 1 = 2.
+\]</span> The two electric fields arrive with the same phase and add coherently. This is constructive interference. Now consider a direction satisfying <span class="math display">\[
+kdsin\theta = \pi.
+\]</span> Then <span class="math display">\[
+e^{jkdsin\theta} = -1,
+\]</span> so <span class="math display">\[
+E(\theta) \propto 1 - 1 = 0.
+\]</span> The fields cancel. Thus, even if the two antennas are excited with exactly the same waveform and phase, the totla radiated field depends on direction.</p>
+<p>The mechanism is</p>
+<p><strong>direction → path difference → propagation-phase difference → field interference.</strong></p>
+<p>This is the physical origin of directional radiation from an antenna array.</p>
+</section>
+<section id="why-equal-excitation-naturally-produces-a-broadside-beam" class="level2">
+<h2 class="anchored" data-anchor-id="why-equal-excitation-naturally-produces-a-broadside-beam">20.7 Why Equal Excitation Naturally Produces a Broadside Beam</h2>
+<p>Suppose the two antennas start with the same phase. Then the transmit excitations are</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

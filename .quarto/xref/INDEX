@@ -1,0 +1,26 @@
+{
+  "index.qmd": {
+    "index.html": "565b0b7a"
+  },
+  "about.qmd": {
+    "about.html": "1cc34e3d"
+  },
+  "research.qmd": {
+    "research.html": "c97728bb"
+  },
+  "notes.qmd": {
+    "notes.html": "6af60e03"
+  },
+  "publication.qmd": {
+    "publication.html": "61d850f7"
+  },
+  "publications.qmd": {
+    "publications.html": "2b712730"
+  },
+  "notes/index.qmd": {
+    "index.html": "db6c11b6"
+  },
+  "notes/radar/evolution-of-radar.qmd": {
+    "evolution-of-radar.html": "34616b3a"
+  }
+}
